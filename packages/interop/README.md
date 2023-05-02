@@ -1,51 +1,43 @@
-# @helia/unixfs-interop <!-- omit in toc -->
-
-[![ipfs.tech](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](https://ipfs.tech)
-[![Discuss](https://img.shields.io/discourse/https/discuss.ipfs.tech/posts.svg?style=flat-square)](https://discuss.ipfs.tech)
-[![codecov](https://img.shields.io/codecov/c/github/ipfs/helia-strings.svg?style=flat-square)](https://codecov.io/gh/ipfs/helia-strings)
-[![CI](https://img.shields.io/github/actions/workflow/status/ipfs/helia-strings/js-test-and-release.yml?branch=main\&style=flat-square)](https://github.com/ipfs/helia-strings/actions/workflows/js-test-and-release.yml?query=branch%3Amain)
-
-> Interop tests for @helia/unixfs
-
-## Table of contents <!-- omit in toc -->
-
-- - [Install](#install)
-    - [Browser `<script>` tag](#browser-script-tag)
-- [@helia/unixfs-interop <!-- omit in toc -->](#heliaunixfs-interop----omit-in-toc---)
-  - [API Docs](#api-docs)
-  - [License](#license)
-  - [Contribute](#contribute)
-
-## Install
-
-```console
-$ npm i @helia/unixfs-interop
-```
-
-### Browser `<script>` tag
-
-Loading this module through a script tag will make it's exports available as `HeliaUnixfsInterop` in the global namespace.
-
-```html
-<script src="https://unpkg.com/@helia/unixfs-interop/dist/index.min.js"></script>
-```
-
 <p align="center">
   <a href="https://github.com/ipfs/helia" title="Helia">
     <img src="https://raw.githubusercontent.com/ipfs/helia/main/assets/helia.png" alt="Helia logo" width="300" />
   </a>
 </p>
 
-# @helia/unixfs-interop <!-- omit in toc -->
+# @helia/strings-interop <!-- omit in toc -->
 
 [![ipfs.tech](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](https://ipfs.tech)
 [![Discuss](https://img.shields.io/discourse/https/discuss.ipfs.tech/posts.svg?style=flat-square)](https://discuss.ipfs.tech)
-[![codecov](https://img.shields.io/codecov/c/github/ipfs/helia-unixfs.svg?style=flat-square)](https://codecov.io/gh/ipfs/helia-unixfs)
-[![CI](https://img.shields.io/github/actions/workflow/status/ipfs/helia-unixfs/js-test-and-release.yml?branch=main\&style=flat-square)](https://github.com/ipfs/helia-unixfs/actions/workflows/js-test-and-release.yml?query=branch%3Amain)
+[![codecov](https://img.shields.io/codecov/c/github/ipfs/helia-strings.svg?style=flat-square)](https://codecov.io/gh/ipfs/helia-strings)
+[![CI](https://img.shields.io/github/actions/workflow/status/ipfs/helia-strings/js-test-and-release.yml?branch=main\&style=flat-square)](https://github.com/ipfs/helia-strings/actions/workflows/js-test-and-release.yml?query=branch%3Amain)
+
+> Interop tests for @helia/strings
+
+## Table of contents <!-- omit in toc -->
+
+- [Install](#install)
+  - [Browser `<script>` tag](#browser-script-tag)
+- [API Docs](#api-docs)
+- [License](#license)
+- [Contribute](#contribute)
+
+## Install
+
+```console
+$ npm i @helia/strings-interop
+```
+
+### Browser `<script>` tag
+
+Loading this module through a script tag will make it's exports available as `HeliaStringsInterop` in the global namespace.
+
+```html
+<script src="https://unpkg.com/@helia/strings-interop/dist/index.min.js"></script>
+```
 
 ## API Docs
 
-- <https://ipfs.github.io/helia-strings/modules/_helia_unixfs_interop.html>
+- <https://ipfs.github.io/helia-strings/modules/_helia_strings_interop.html>
 
 ## License
 

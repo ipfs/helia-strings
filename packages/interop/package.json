@@ -1,7 +1,7 @@
 {
-  "name": "@helia/unixfs-interop",
+  "name": "@helia/strings-interop",
   "version": "0.0.0",
-  "description": "Interop tests for @helia/unixfs",
+  "description": "Interop tests for @helia/strings",
   "license": "Apache-2.0 OR MIT",
   "homepage": "https://github.com/ipfs/helia-strings/tree/master/packages/interop#readme",
   "repository": {
@@ -58,19 +58,17 @@
     "@helia/strings": "~0.0.0",
     "@libp2p/tcp": "^6.1.2",
     "@libp2p/websockets": "^5.0.3",
-    "aegir": "^38.1.0",
+    "aegir": "^39.0.3",
     "blockstore-core": "^4.0.1",
     "datastore-core": "^9.0.3",
     "go-ipfs": "^0.19.0",
     "helia": "^1.0.0",
     "ipfs-core-types": "^0.14.0",
-    "ipfs-unixfs-importer": "^15.1.0",
     "ipfsd-ctl": "^13.0.0",
-    "it-to-buffer": "^4.0.1",
     "kubo-rpc-client": "^3.0.0",
     "libp2p": "^0.43.2",
     "merge-options": "^3.0.4",
-    "multiformats": "^11.0.1",
+    "uint8arrays": "^4.0.3",
     "wherearewe": "^2.0.1"
   },
   "browser": {

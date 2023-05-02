@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://github.com/ipfs/helia" title="Helia">
+    <img src="https://raw.githubusercontent.com/ipfs/helia/main/assets/helia.png" alt="Helia logo" width="300" />
+  </a>
+</p>
+
 # @helia/strings <!-- omit in toc -->
 
 [![ipfs.tech](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](https://ipfs.tech)
@@ -9,29 +15,15 @@
 
 ## Table of contents <!-- omit in toc -->
 
-- - [Structure](#structure)
-- [@helia/unixfs <!-- omit in toc -->](#heliaunixfs----omit-in-toc---)
-  - [API Docs](#api-docs)
-  - [License](#license)
-  - [Contribute](#contribute)
+- [Structure](#structure)
+- [API Docs](#api-docs)
+- [License](#license)
+- [Contribute](#contribute)
 
 ## Structure
 
-- [`/packages/interop`](./packages/interop) Interop tests for @helia/unixfs
+- [`/packages/interop`](./packages/interop) Interop tests for @helia/strings
 - [`/packages/strings`](./packages/strings) Add/get IPLD blocks containing strings with your Helia node
-
-<p align="center">
-  <a href="https://github.com/ipfs/helia" title="Helia">
-    <img src="https://raw.githubusercontent.com/ipfs/helia/main/assets/helia.png" alt="Helia logo" width="300" />
-  </a>
-</p>
-
-# @helia/unixfs <!-- omit in toc -->
-
-[![ipfs.tech](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](https://ipfs.tech)
-[![Discuss](https://img.shields.io/discourse/https/discuss.ipfs.tech/posts.svg?style=flat-square)](https://discuss.ipfs.tech)
-[![codecov](https://img.shields.io/codecov/c/github/ipfs/helia-unixfs.svg?style=flat-square)](https://codecov.io/gh/ipfs/helia-unixfs)
-[![CI](https://img.shields.io/github/actions/workflow/status/ipfs/helia-unixfs/js-test-and-release.yml?branch=main\&style=flat-square)](https://github.com/ipfs/helia-unixfs/actions/workflows/js-test-and-release.yml?query=branch%3Amain)
 
 ## API Docs
 
