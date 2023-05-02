@@ -145,7 +145,7 @@
     "uint8arrays": "^4.0.3"
   },
   "devDependencies": {
-    "aegir": "^38.1.0",
+    "aegir": "^39.0.3",
     "blockstore-core": "^4.0.1"
   },
   "typedoc": {
