@@ -26,10 +26,10 @@ export async function createHeliaNode (config: Libp2pOptions = {}): Promise<Heli
     streamMuxers: [
       yamux()
     ],
-    datastore,
     services: {
       identify: identifyService()
     },
+    datastore,
     connectionGater: {
       denyDialMultiaddr: async () => false
     },
