@@ -58,7 +58,11 @@ describe('strings interop', () => {
   it('should add to kubo and fetch from helia', async () => {
     const input = 'hello world'
     const cid = await kubo.api.block.put(uint8ArrayFromString(input))
-    const output = await str.get(cid)
+    const output = await str.get(cid, {
+      onProgress: (evt) => {
+        console.info(evt.type, evt.detail) // eslint-disable-line no-console
+      }
+    })
 
     expect(output).to.equal(input)
   })
