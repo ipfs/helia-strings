@@ -2,6 +2,7 @@
 
 import { strings, type Strings, type AddOptions } from '@helia/strings'
 import { expect } from 'aegir/chai'
+import { identifyService } from 'libp2p/identify'
 import { fromString as uint8ArrayFromString } from 'uint8arrays/from-string'
 import { toString as uint8ArrayToString } from 'uint8arrays/to-string'
 import { createHeliaNode } from './fixtures/create-helia.js'
@@ -23,7 +24,11 @@ describe('strings interop', () => {
   }
 
   beforeEach(async () => {
-    helia = await createHeliaNode()
+    helia = await createHeliaNode({
+      services: {
+        identify: identifyService()
+      }
+    })
     str = strings(helia)
     kubo = await createKuboNode()
 
