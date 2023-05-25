@@ -27,7 +27,8 @@ describe('strings interop', () => {
     str = strings(helia)
     kubo = await createKuboNode()
 
-    await helia.libp2p.dial((await (kubo.api.id())).addresses)
+    const id = await kubo.api.id()
+    await helia.libp2p.dial(id.addresses)
   })
 
   afterEach(async () => {
@@ -58,11 +59,7 @@ describe('strings interop', () => {
   it('should add to kubo and fetch from helia', async () => {
     const input = 'hello world'
     const cid = await kubo.api.block.put(uint8ArrayFromString(input))
-    const output = await str.get(cid, {
-      onProgress: (evt) => {
-        console.info(evt.type, evt.detail) // eslint-disable-line no-console
-      }
-    })
+    const output = await str.get(cid)
 
     expect(output).to.equal(input)
   })
