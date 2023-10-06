@@ -1,4 +1,4 @@
-import * as goIpfs from 'go-ipfs'
+import * as kubo from 'kubo'
 import { type Controller, type ControllerOptions, createController } from 'ipfsd-ctl'
 import * as kuboRpcClient from 'kubo-rpc-client'
 import mergeOptions from 'merge-options'
@@ -7,7 +7,7 @@ import { isElectronMain, isNode } from 'wherearewe'
 export async function createKuboNode (options: ControllerOptions<'go'> = {}): Promise<Controller> {
   const opts = mergeOptions({
     kuboRpcModule: kuboRpcClient,
-    ipfsBin: isNode || isElectronMain ? goIpfs.path() : undefined,
+    ipfsBin: isNode || isElectronMain ? kubo.path() : undefined,
     test: true,
     endpoint: process.env.IPFSD_SERVER,
     ipfsOptions: {
