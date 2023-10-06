@@ -1,5 +1,5 @@
-import * as kubo from 'kubo'
 import { type Controller, type ControllerOptions, createController } from 'ipfsd-ctl'
+import * as kubo from 'kubo'
 import * as kuboRpcClient from 'kubo-rpc-client'
 import mergeOptions from 'merge-options'
 import { isElectronMain, isNode } from 'wherearewe'
