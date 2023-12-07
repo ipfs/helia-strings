@@ -141,7 +141,7 @@
     "interface-blockstore": "^5.0.0",
     "multiformats": "^12.1.2",
     "progress-events": "^1.0.0",
-    "uint8arrays": "^4.0.3"
+    "uint8arrays": "^5.0.0"
   },
   "devDependencies": {
     "aegir": "^41.0.0",
