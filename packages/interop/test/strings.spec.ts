@@ -2,6 +2,7 @@
 
 import { strings, type Strings, type AddOptions } from '@helia/strings'
 import { expect } from 'aegir/chai'
+import { CID } from 'multiformats/cid'
 import { fromString as uint8ArrayFromString } from 'uint8arrays/from-string'
 import { toString as uint8ArrayToString } from 'uint8arrays/to-string'
 import { createHeliaNode } from './fixtures/create-helia.js'
@@ -9,7 +10,6 @@ import { createKuboNode } from './fixtures/create-kubo.js'
 import type { Helia } from '@helia/interface'
 import type { PutOptions as KuboAddOptions } from 'ipfs-core-types/src/block/index.js'
 import type { Controller } from 'ipfsd-ctl'
-import { CID } from 'multiformats/cid'
 
 describe('strings interop', () => {
   let helia: Helia
