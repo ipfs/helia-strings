@@ -9,6 +9,7 @@ import { createKuboNode } from './fixtures/create-kubo.js'
 import type { Helia } from '@helia/interface'
 import type { PutOptions as KuboAddOptions } from 'ipfs-core-types/src/block/index.js'
 import type { Controller } from 'ipfsd-ctl'
+import { CID } from 'multiformats/cid'
 
 describe('strings interop', () => {
   let helia: Helia
@@ -59,7 +60,7 @@ describe('strings interop', () => {
   it('should add to kubo and fetch from helia', async () => {
     const input = 'hello world'
     const cid = await kubo.api.block.put(uint8ArrayFromString(input))
-    const output = await str.get(cid)
+    const output = await str.get(CID.parse(cid.toString()))
 
     expect(output).to.equal(input)
   })
