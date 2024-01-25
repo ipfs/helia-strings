@@ -141,7 +141,7 @@
     "release": "aegir release"
   },
   "dependencies": {
-    "@helia/interface": "^3.0.0",
+    "@helia/interface": "^4.0.0",
     "@libp2p/interfaces": "^3.3.1",
     "multiformats": "^13.0.0",
     "progress-events": "^1.0.0",
