@@ -64,7 +64,7 @@
     "aegir": "^42.0.1",
     "blockstore-core": "^4.0.1",
     "datastore-core": "^9.0.3",
-    "helia": "^3.0.0",
+    "helia": "^4.0.1",
     "ipfs-core-types": "^0.14.0",
     "ipfsd-ctl": "^13.0.0",
     "kubo": "^0.25.0",
