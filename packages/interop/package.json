@@ -67,7 +67,7 @@
     "helia": "^3.0.0",
     "ipfs-core-types": "^0.14.0",
     "ipfsd-ctl": "^13.0.0",
-    "kubo": "^0.25.0",
+    "kubo": "^0.26.0",
     "kubo-rpc-client": "^3.0.0",
     "libp2p": "^1.1.1",
     "merge-options": "^3.0.4",
